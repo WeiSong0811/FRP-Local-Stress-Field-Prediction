@@ -2,19 +2,19 @@
 # Machine learning based prediction of local stress field in fiber reinforced polymers
 机器学习在纤维增强聚合物中局部应力场预测中的应用
 
-# Rapid analyses of fiber reinforced polymers (FRP) continuously gain importance in the context of lightweight design. Given the pronounced microscopic heterogeneity of FRP, identical macroscopic loading conditions can lead to significantly different local stress fields and thus be potentially detrimental to the structural integrity. Currently, the prediction of the local stress field in FRP is computationally expensive and requires the use of non-linear high-fidelity models, such as finite element analysis (FEA).
+#Rapid analyses of fiber reinforced polymers (FRP) continuously gain importance in the context of lightweight design. Given the pronounced microscopic heterogeneity of FRP, identical macroscopic loading conditions can lead to significantly different local stress fields and thus be potentially detrimental to the structural integrity. Currently, the prediction of the local stress field in FRP is computationally expensive and requires the use of non-linear high-fidelity models, such as finite element analysis (FEA).
 在轻量化设计的背景下，纤维增强聚合物（FRP）的快速分析日益重要。鉴于FRP显著的微观异质性，相同的宏观载荷条件可能会导致显著不同的局部应力场，从而对结构完整性产生潜在的破坏。目前，对FRP局部应力场的预测在计算上非常昂贵，需要使用非线性高保真模型，如有限元分析（FEA）。在本研究中，将研究最近由Raabe及其团队提出的方法在FRP局部应力场预测中的可转移性：基础方法、非线性材料行为的应用。
 
-# In this work, the transferability of an approach recently proposed by Raabe and his team for the prediction of the local stress field in polycrystalline materials to FRP shall be investigated: fundamental approach, application to non-linear material behavior. The approach is based on the training of a machine learning model on a dataset of local stress fields obtained from high-fidelity simulations of a set of representative volume elements (RVEs) with varying microstructures and loading conditions. The model is subsequently used to predict the local stress field in unseen samples based on their microstructure and the macroscopic deformation state.
+#In this work, the transferability of an approach recently proposed by Raabe and his team for the prediction of the local stress field in polycrystalline materials to FRP shall be investigated: fundamental approach, application to non-linear material behavior. The approach is based on the training of a machine learning model on a dataset of local stress fields obtained from high-fidelity simulations of a set of representative volume elements (RVEs) with varying microstructures and loading conditions. The model is subsequently used to predict the local stress field in unseen samples based on their microstructure and the macroscopic deformation state.
 该方法基于在具有不同微结构和加载条件的一组代表性体积单元（RVEs）上进行高保真模拟得到的局部应力场数据集，训练机器学习模型。该模型随后用于基于其微结构和宏观变形状态预测未见样本的局部应力场。
 
-# A possible workflow for this project could be as follows:
+#A possible workflow for this project could be as follows:
 
-# 1. Review of the literature on the prediction of local stress fields in FRP and the transferability of machine learning models between different materials.
-# 2. Generation of a dataset of local stress fields in FRP RVEs with varying microstructures and loading conditions using FEA.
-# 3. Implementation of a machine learning pipeline for the prediction of local stress fields based on the dataset.
-# 4. Evaluation of the predictive performance of different machine learning models on unseen samples.
-# 5. Documentation of the results and comparison with existing approaches.
+#1. Review of the literature on the prediction of local stress fields in FRP and the transferability of machine learning models between different materials.
+#2. Generation of a dataset of local stress fields in FRP RVEs with varying microstructures and loading conditions using FEA.
+#3. Implementation of a machine learning pipeline for the prediction of local stress fields based on the dataset.
+#4. Evaluation of the predictive performance of different machine learning models on unseen samples.
+#5. Documentation of the results and comparison with existing approaches.
 
 本项目的可能工作流程如下：
 
@@ -23,10 +23,10 @@
 3、实现一个基于该数据集的局部应力场预测机器学习流程。
 4、评估不同机器学习模型在未见样本上的预测性能。
 5、记录结果并与现有方法进行比较。
-# The successful completion of this project could provide a computationally efficient method for the prediction of local stress fields in FRP, enabling rapid analyses of complex structures and contributing to the advancement of lightweight design in engineering applications.
+#The successful completion of this project could provide a computationally efficient method for the prediction of local stress fields in FRP, enabling rapid analyses of complex structures and contributing to the advancement of lightweight design in engineering applications.
 项目成功完成将为FRP局部应力场预测提供一种计算效率高的方法，从而能够对复杂结构进行快速分析，促进轻量化设计在工程应用中的发展。
 
-# Keywords: fiber reinforced polymers, local stress field, machine learning, finite element analysis, lightweight design
+#Keywords: fiber reinforced polymers, local stress field, machine learning, finite element analysis, lightweight design
 关键词：纤维增强聚合物，局部应力场，机器学习，有限元分析，轻量化设计
 
 # 文献回顾：
